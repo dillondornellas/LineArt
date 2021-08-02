@@ -1,5 +1,6 @@
 # LineArt
-Reconstruct images using one continuous line based on average pixel intensities.
+Reconstruct images using one continuous line based on average pixel intensities./n
+
 Returns node sequence to reproduce the image.
 Sequence to interface with modified cartesian 3D printer to dispense twine around pins on a canvas to reproduce the image.
 
