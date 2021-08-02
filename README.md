@@ -1,10 +1,10 @@
-# Line Art using rectangular and circular coordinate systems
-Reconstruct images using one continuous line based on average pixel intensities.
-Copy of code made using circular boarder as opposed to rectangular edges of the image.
+# Line Art Generator
+Reconstruct images using one continuous line based on average pixel intensities and image decomposition.
 
 Modifiable options include:
 - Number of lines to draw
 - Node spacing / Number of nodes
+- Circular / Rectangular coordinate system
 - Visualizer Boolean
 
 Returns node sequence to reproduce the image.
