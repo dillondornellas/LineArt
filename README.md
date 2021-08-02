@@ -1,4 +1,4 @@
-# LineArt
+# Line Art using rectangular and circular coordinate systems
 Reconstruct images using one continuous line based on average pixel intensities.
 Copy of code made using circular boarder as opposed to rectangular edges of the image.
 
