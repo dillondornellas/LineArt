@@ -1,7 +1,14 @@
 # LineArt
-Reconstruct images using one continuous line based on average pixel intensities./n
+Reconstruct images using one continuous line based on average pixel intensities.
+Copy of code made using circular boarder as opposed to rectangular edges of the image.
+
+Modifiable options include:
+- Number of lines to draw
+- Node spacing / Number of nodes
+- Visualizer Boolean
 
 Returns node sequence to reproduce the image.
+
 Sequence to interface with modified cartesian 3D printer to dispense twine around pins on a canvas to reproduce the image.
 
 
