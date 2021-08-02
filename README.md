@@ -11,7 +11,7 @@ Returns node sequence to reproduce the image.
 
 Sequence to interface with modified cartesian 3D printer to dispense twine around pins on a canvas to reproduce the image.
 
-NOTE: Shading effect of overlayed lines not represented in generated images, but noticable when drawn in real world environment
+NOTE : Shading effect of overlayed lines not represented in generated images, but noticable when drawn in real world environment
 
 ![alt text](https://github.com/dillondornellas/LineArt/blob/main/draw_face.gif?raw=true)
 
