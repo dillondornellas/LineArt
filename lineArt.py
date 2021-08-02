@@ -74,7 +74,7 @@ def corner_pop(node_list):
         None
     return node_list
 
-def darkest_line(imgage, start, frame_side):
+def darkest_line(image, start, frame_side):
     best_line = math.inf
     line_strength = 0
     for index, node in enumerate(frame_side):
@@ -85,7 +85,7 @@ def darkest_line(imgage, start, frame_side):
             try:
                                # image[HEIGHT][WIDTH]
                                # image[y][x]                    
-                line_strength += imgage[pixel[1]][pixel[0]]
+                line_strength += image[pixel[1]][pixel[0]]
             except:
                 None
         #averge pixel strength
@@ -98,9 +98,9 @@ def darkest_line(imgage, start, frame_side):
 
 ########## OPTIONS ##########
 #total lines requested      #                  
-lines2draw = 900            #      
+lines2draw = 200            #      
 #create a video             #     
-createVideo = False         #         
+createVideo = True          #         
 #node pixel spacing         #         
 pixels = 10                 # 
 #initialize starting point  #                  
@@ -303,7 +303,7 @@ for line_count in range(lines2draw):
     if createVideo == True:
         # code to generate video (1)
         fname = 'line_art-{0:0=4d}.png'.format(index)
-        fpath = 'E:/GitHub/lineArt/lines'
+        fpath = 'E:/GitHub/LinArt/lines'
         cv2.imwrite(os.path.join(fpath, fname), numpy_horizontal)
         index += 1
 
